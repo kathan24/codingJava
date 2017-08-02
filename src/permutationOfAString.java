@@ -1,5 +1,5 @@
 /**
- * Created by xad on 7/18/17.
+ * Created by kathan on 7/18/17.
  */
 public class permutationOfAString {
     public static void main(String[] args){

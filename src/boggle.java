@@ -1,5 +1,5 @@
 /**
- * Created by xad on 7/19/17.
+ * Created by kathan on 7/19/17.
  */
 public class boggle {
     final static String[] dictionary = {"GEEKS", "QUIZ", "FOR", "GO"};

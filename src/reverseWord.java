@@ -1,5 +1,5 @@
 /**
- * Created by xad on 7/21/17.
+ * Created by kathan on 7/21/17.
  */
 public class reverseWord {
     public static void main(String[] args){

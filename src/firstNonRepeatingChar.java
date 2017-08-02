@@ -1,5 +1,5 @@
 /**
- * Created by xad on 7/19/17.
+ * Created by kathan on 7/19/17.
  */
 public class firstNonRepeatingChar {
     public static char count[] = new char[256];

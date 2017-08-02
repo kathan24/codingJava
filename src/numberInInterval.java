@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 /**
- * Created by xad on 7/21/17.
+ * Created by kathan on 7/21/17.
  */
 public class numberInInterval {
     public static void correctInterval(ArrayList<ArrayList<Integer>> arr){
