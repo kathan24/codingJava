@@ -8,12 +8,10 @@ public class permutationOfAString {
 
     public static void printAllPermutation(String result, String remainingString){
         if(remainingString.length() > 1){
-            char[] remainingCharArray = remainingString.toCharArray();
-
-            for(int i = 0; i < remainingCharArray.length; i++){
+            for(int i = 0; i < remainingString.length(); i++){
                 StringBuilder tempBuilder = new StringBuilder(remainingString);
                 tempBuilder.deleteCharAt(i);
-                printAllPermutation(result + remainingCharArray[i], tempBuilder.toString());
+                printAllPermutation(result + remainingString.charAt(i), tempBuilder.toString());
             }
         }else{
             System.out.println(result + remainingString);
