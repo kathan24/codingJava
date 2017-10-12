@@ -73,6 +73,10 @@ public class buildOrder {
 }
 
 /*
+NOTE: Here 1 is dependent on 2 3 5 so use recursion method.
+Another case https://github.com/kathan24/codingPython/blob/master/letterRelationship.py
+where dependency is reverse to use Topological sort
+
 1 -> 2 3 5
 2 -> 6 7 8
 3 -> 4
